@@ -2,22 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:project_phase_2/home.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
+  runApp(const NutrientSolverApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class NutrientSolverApp extends StatelessWidget {
+  const NutrientSolverApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
+      home: NutrientSolverHome(),
       debugShowCheckedModeBanner: false,
-      title: 'Matrix Calculator',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: const MyHomePage(title: 'Matrix Calculator'),
     );
   }
 }
