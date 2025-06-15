@@ -1,3 +1,3 @@
 # project_phase_2
 
-CSM3200 Project Phase 2 Github repo
+This repo contains the source code for CSM3002 project. The code has been modified from milestone 2 to become a nutrient solver app
